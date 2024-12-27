@@ -1,0 +1,17 @@
+package pack3;
+
+class CurrentAccount implements Account{
+
+	@Override
+	public void deposite(double amt) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void withdraw(double amt) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,22 @@
+package pack2;
+
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
+
+import pack1.Calculator;
+
+public class CalculatorTester {
+	
+	Calculator calculator;
+	@BeforeEach
+	public void f1() {
+		this.calculator=new Calculator();
+	}
+	
+	@AfterEach
+	public void f2() {
+		this.calculator=null;
+	}
+	
+
+}

@@ -1,0 +1,31 @@
+package pack2;
+
+import java.util.LinkedList;
+import java.util.List;
+import java.util.function.Consumer;
+
+public class Main1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		List<Integer>ages=new LinkedList<>();
+		ages.add(Integer.valueOf(25));
+		ages.add(Integer.valueOf(40));
+		ages.add(Integer.valueOf(50));
+		ages.add(Integer.valueOf(35));
+		
+		Consumer<Integer> consumer;
+		consumer=(i)->System.out.println(i);
+		
+		ages.stream().forEach(consumer);
+		//or 
+		ages.stream().forEach(i->System.out.println(i));
+		System.out.println("-------------------------------");
+		ages.stream().filter(i->  i>30 ).forEach(i->System.out.println(i));;
+		System.out.println("-------------------------------");
+		ages.stream().sorted().forEach(consumer);//or for each upper one 
+		System.out.println("-------------------------------");
+		ages.stream().filter(i->i>30).forEach(consumer);
+	}
+
+}

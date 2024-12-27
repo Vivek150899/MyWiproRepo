@@ -1,0 +1,32 @@
+package pack2;
+
+import java.util.HashSet;
+import java.util.Set;
+
+
+import pack1.Square;
+
+public class Main3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Set<Square>squareSet=new HashSet<>();
+		squareSet.add(new Square(5));
+		squareSet.add(new Square(5));
+		squareSet.add(new Square(5));
+		squareSet.add(new Square(5));
+		squareSet.add(new Square(5));
+		
+		squareSet.forEach((c)->System.out.println(c));
+		System.out.println("-------------------------------");
+		squareSet.stream().forEach((c)->System.out.println(c));
+		System.out.println("-------------------------------");
+		squareSet.stream().sorted().forEach((c)->System.out.println(c));
+		System.out.println("-------------------------------");
+		squareSet.stream().filter(c->c.getLoanAmt()>12000.0).forEach((c)->System.out.println(c));
+		System.out.println("-------------------------------");
+		squareSet.stream().filter(c->c.getTenure()>10).sorted().forEach((c)->System.out.println(c));
+
+	}
+
+}

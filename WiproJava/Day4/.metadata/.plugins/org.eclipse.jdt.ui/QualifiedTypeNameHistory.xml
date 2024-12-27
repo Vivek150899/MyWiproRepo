@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="pack1.A"/>
+    <fullyQualifiedTypeName name="pack1.B"/>
+    <fullyQualifiedTypeName name="pack1.C"/>
+    <fullyQualifiedTypeName name="pack1.Manager"/>
+    <fullyQualifiedTypeName name="pack1.SalesExecutive"/>
+    <fullyQualifiedTypeName name="pack1.Circle"/>
+    <fullyQualifiedTypeName name="pack1.Employee"/>
+    <fullyQualifiedTypeName name="pack1.Student"/>
+    <fullyQualifiedTypeName name="pack1.Square"/>
+    <fullyQualifiedTypeName name="pack1.Loan"/>
+    <fullyQualifiedTypeName name="pack1.Ractangle"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
+    <fullyQualifiedTypeName name="java.util.StringJoiner"/>
+</qualifiedTypeNameHistroy>

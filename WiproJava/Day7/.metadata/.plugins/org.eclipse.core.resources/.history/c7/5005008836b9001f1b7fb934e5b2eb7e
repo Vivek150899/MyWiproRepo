@@ -1,0 +1,25 @@
+package pack2;
+
+import pack3.StackImplementation;
+
+public class Main7 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		StackImplementation <Integer> stack=new StackImplementation<>(3);
+		
+		stack.push(200);;
+		stack.push(Integer.valueOf(300));
+		stack.push(Integer.valueOf(400));
+		
+		System.out.println(stack);
+		
+		Integer poppedData=stack.pop();
+		System.out.println(poppedData.intValue());
+		
+		
+		
+
+	}
+
+}

@@ -1,0 +1,28 @@
+package pack1;
+
+import java.util.Arrays;
+
+public class InStack {
+	
+	int []allInts;
+	int index;
+	
+	public InStack(int size) {
+		allInts=new int[size];
+		index=0;
+	}
+	public void push(int value) {
+		allInts[index]=value;
+		index++;
+	}
+	public int pop() {
+		index--;
+		int value=allInts[index];
+		return value;
+	}
+	public String toString() {
+		String str=Arrays.toString(allInts);
+		return str;
+	}
+
+}

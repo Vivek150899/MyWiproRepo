@@ -1,0 +1,18 @@
+package pack2;
+
+import pack1.Loan;
+import pack1.PersonalLoan;
+
+public class Main3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Loan loan;
+		
+		loan=new PersonalLoan(10000.0, 12,"9519382914");
+		System.out.println("Personal Loan Amount : "+loan.getInterestAmount());
+
+	}
+
+}

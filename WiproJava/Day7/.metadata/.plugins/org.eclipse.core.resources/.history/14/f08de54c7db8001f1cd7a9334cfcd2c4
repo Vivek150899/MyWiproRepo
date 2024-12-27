@@ -1,0 +1,18 @@
+package pack2;
+
+public class Main2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Double[] arr=new Double[5];
+		//initialize and print the array elements
+		
+		arr[0]=Integer.valueOf(500.0);
+		arr[1]=Integer.valueOf(550.0);
+		arr[2]=Integer.valueOf(600.0);
+		arr[0]=Integer.valueOf(650.0);
+		arr[1]=Integer.valueOf(700.0);
+		
+	}
+
+}

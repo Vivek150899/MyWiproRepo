@@ -1,0 +1,27 @@
+package pack2;
+
+import pack3.AccountFactory;
+import pack3.Account;
+
+public class Main2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Account A;
+		
+		A=AccountFactory.createAccount('S');
+		//s=new Circle();
+		
+		System.out.println(A.deposite(200));
+		System.out.println(A.withdraw(500));
+		
+		
+		A=AccountFactory.createAccount('T');
+		//s=new Circle();
+		
+		System.out.println(A.deposite(50));
+		System.out.println(A.withdraw(34));
+
+	}
+
+}

@@ -1,0 +1,59 @@
+package pack1;
+
+public class Employee {
+	
+	private int id;
+	private int name;
+	private double basicSalary;
+	private char grade;
+	private SalaryCalculation salaryCalculation;
+	
+	public Employee(int id, int name, double basicSalary, char grade) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.basicSalary = basicSalary;
+		this.grade = grade;
+	}
+	public Employee() {
+		super();
+	}
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public int getName() {
+		return name;
+	}
+	public void setName(int name) {
+		this.name = name;
+	}
+	public double getBasicSalary() {
+		return basicSalary;
+	}
+	public void setBasicSalary(double basicSalary) {
+		this.basicSalary = basicSalary;
+	}
+	public char getGrade() {
+		return grade;
+	}
+	public void setGrade(char grade) {
+		this.grade = grade;
+	}
+	
+	public double getAllowance() {
+		return 0;
+	}
+	
+	public double getDeduction() {
+		return 0;
+	}
+	
+	public double getNetSalary() {
+		return 0;
+	}
+	
+
+}

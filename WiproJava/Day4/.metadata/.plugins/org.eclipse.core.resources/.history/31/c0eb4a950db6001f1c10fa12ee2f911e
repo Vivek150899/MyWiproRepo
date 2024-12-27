@@ -1,0 +1,15 @@
+package pack2;
+
+public class Main3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//create one student object with parametrised constructors
+		//print the object
+		
+		//create one student object with no argument constructors
+		//print the object
+
+	}
+
+}

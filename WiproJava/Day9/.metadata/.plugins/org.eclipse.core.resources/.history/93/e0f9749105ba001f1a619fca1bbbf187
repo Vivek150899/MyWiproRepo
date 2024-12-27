@@ -1,0 +1,19 @@
+package pack3;
+import pack1.Square;
+import pack2.Acceptor;
+
+public class Main10 {
+	
+	static void f1(Acceptor<Square>acc) {
+		Square square=new Square(10);
+		acc.accept(square);
+	}
+
+	public static void main(String[] args) {
+		Acceptor<Square> acceptor1;
+		acceptor1=(s)->System.out.println(s.getSize());
+		f1(acceptor1);
+
+	}
+
+}

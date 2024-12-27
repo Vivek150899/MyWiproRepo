@@ -1,0 +1,31 @@
+package pack2;
+
+import java.util.function.Predicate;
+
+import pack1.Loan;
+
+public class Main2 {
+
+	public static void main(String[] args) {
+		
+		Integer iobj=Integer.valueOf(200);
+				
+		Predicate<Integer>pr1;
+		pr1=(i)->i>100;
+		System.out.println(pr1.test(iobj));
+		
+		String str="Welcome";
+		Predicate<String>pr2;
+		pr2=(i)->i.length()>50;
+		System.out.println(pr2.test(str));
+		
+		Loan loan=new Loan(21,"Achal",12000,11);
+		Predicate<Loan>pr3;
+		pr3=(l)->l.getLoanId()>10;
+		System.out.println(pr3.test(loan));
+		
+		
+
+	}
+
+}

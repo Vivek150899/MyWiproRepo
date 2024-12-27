@@ -1,0 +1,20 @@
+package pack3;
+
+class TradingAccount implements Account{
+	private double balance;
+
+	@Override
+	public void deposite(double amt) {
+		// TODO Auto-generated method stub
+		this.balance=this.balance+amt;
+		
+	}
+
+	@Override
+	public void withdraw(double amt) {
+		// TODO Auto-generated method stub
+		this.balance=this.balance-amt;
+		
+	}
+
+}

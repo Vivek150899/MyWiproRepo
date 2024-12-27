@@ -1,0 +1,21 @@
+package pack2;
+
+import java.util.function.Consumer;
+
+import pack1.Square;
+
+public class Main1 {
+  public static void main(String[] args) {
+	Square square=new Square(25);
+	
+	Consumer<Square>consumer1=(s)->System.out.println(s);
+	consumer1.accept(square);
+	
+	Consumer<Square>consumer2=(s)->System.out.println(s.getSize());
+	consumer2.accept(square);
+	
+	Consumer<Square>consumer3=(s)->System.out.println(s.getArea());
+	consumer3.accept(square);
+}
+
+}

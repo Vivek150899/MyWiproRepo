@@ -1,0 +1,14 @@
+  class X {
+        int age=60;
+}
+  class Y extends X{
+	  void printAgeAndSalary() {
+		  System.out.println(age);
+	  }
+  }
+  class main {
+	  public static void main(String[] args) {
+		Y obj=new Y();
+		obj.printAgeAndSalary();
+	}
+  }

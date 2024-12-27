@@ -1,0 +1,4 @@
+//empty interfaces called marker interface
+public interface X {
+
+}

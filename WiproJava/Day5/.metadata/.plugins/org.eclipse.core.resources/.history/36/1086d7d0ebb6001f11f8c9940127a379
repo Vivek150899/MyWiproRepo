@@ -1,0 +1,15 @@
+package pack2;
+
+import pack1.Employee;
+
+public class Main3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Employee emp1=new Employee(1,"Arpit",20000.0);
+		Employee emp2=new Employee(1,"Arpit",20000.0);
+
+	}
+
+}

@@ -1,0 +1,49 @@
+package pack2;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.jupiter.api.Test;
+
+import pack1.EvenNumberChecker;
+
+public class EvenNumberCheckerTester {
+    @Test
+	public void check1() {
+		EvenNumberChecker checker=new EvenNumberChecker();
+		checker.setNumber(14);
+		boolean expected=true;
+		boolean actual=checker.isEvenNumber();
+		assertEquals(expected, actual);
+		checker=null;
+	}
+    @Test
+    public void check2() {
+		EvenNumberChecker checker=new EvenNumberChecker();
+		checker.setNumber(7);
+		boolean expected=false;
+		boolean actual=checker.isEvenNumber();
+		assertEquals(expected, actual);
+		checker=null;
+	}
+    @Test
+    public void check3() {
+		EvenNumberChecker checker=new EvenNumberChecker();
+		checker.setNumber(-10);
+		boolean expected=true;
+		boolean actual=checker.isEvenNumber();
+		assertEquals(expected, actual);
+		checker=null;
+	}
+    @Test
+    public void check4() {
+		EvenNumberChecker checker=new EvenNumberChecker();
+		checker.setNumber(-9);
+		boolean expected=false;
+		boolean actual=checker.isEvenNumber();
+		assertEquals(expected, actual);
+		checker=null;
+	}
+   
+	
+
+}

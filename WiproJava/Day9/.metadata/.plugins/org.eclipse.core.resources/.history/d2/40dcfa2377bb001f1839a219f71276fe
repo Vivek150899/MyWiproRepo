@@ -1,0 +1,49 @@
+package pack1;
+
+import java.util.Objects;
+
+public class radius {
+	private int radius;
+
+	public radius(int radius) {
+		super();
+		this.radius = radius;
+	}
+
+	public radius() {
+		super();
+	}
+
+	public int getRadius() {
+		return radius;
+	}
+
+	public void setRadius(int radius) {
+		this.radius = radius;
+	}
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(radius);
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		radius other = (radius) obj;
+		return radius == other.radius;
+	}
+
+	@Override
+	public String toString() {
+		return "radius [radius=" + radius + "]";
+	}
+	
+	
+
+}

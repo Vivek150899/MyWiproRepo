@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.lang.Long"/>
+    <fullyQualifiedTypeName name="java.lang.Character"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="pack1.InStack"/>
+    <fullyQualifiedTypeName name="pack3.IntegerStackImplementation"/>
+    <fullyQualifiedTypeName name="pack3.ObjectStackImplementation"/>
+    <fullyQualifiedTypeName name="pack3.StackImplementation"/>
+    <fullyQualifiedTypeName name="pack3.Stack"/>
+    <fullyQualifiedTypeName name="pack3.StackImplementation1"/>
+    <fullyQualifiedTypeName name="pack1.Employee"/>
+    <fullyQualifiedTypeName name="pack1.Circle"/>
+</qualifiedTypeNameHistroy>

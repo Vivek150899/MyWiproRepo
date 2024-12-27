@@ -1,0 +1,11 @@
+package pack3;
+import pack1.Square;
+
+public class Main1 {
+
+	public static void main(String[] args) {
+		Accepter<Square>acceptorSquare;
+
+	}
+
+}

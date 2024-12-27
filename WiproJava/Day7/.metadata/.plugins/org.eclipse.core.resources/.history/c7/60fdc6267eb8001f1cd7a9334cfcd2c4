@@ -1,0 +1,23 @@
+package pack2;
+
+public class Main3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String [] arr= new String[4];
+		   String str="Kolkata";
+		
+		
+		arr[0]=String.valueOf("Delhi");
+		arr[1]=String.valueOf(550.0);
+		arr[2]=String.valueOf(600.0);
+		arr[3]=String.valueOf(650.0);
+		arr[4]=str;
+		
+		for (int i:arr) {
+			System.out.println(arr[i]);
+		}
+
+	}
+
+}

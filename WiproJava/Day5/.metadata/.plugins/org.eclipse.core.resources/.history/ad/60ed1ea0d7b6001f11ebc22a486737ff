@@ -1,0 +1,18 @@
+package pack2;
+
+import pack1.Employee;
+
+public class Main2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Employee e;
+		e=new Employee(1055,"Achal",10000.0,'D');
+		
+		System.out.println("Allowance : "+e.getAllowance());
+		System.out.println("Deduction : "+e.getDeduction());
+		System.out.println("Net Salary : "+e.getNetSalary());
+
+	}
+
+}

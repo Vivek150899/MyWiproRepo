@@ -1,0 +1,21 @@
+package pack2;
+import java.util.LinkedList;
+import java.util.List;
+
+import pack1.Employee;
+
+public class Main5 {
+
+	public static void main(String[] args) {
+		// list of employee objects 5 print the name of employee and salary
+		//compute the total salary of all employees
+		List<Employee>employeeList;
+		employeeList=new LinkedList<>();
+		
+		Employee employee1=new Employee(1,"Achal",1200.0);
+		Employee employee2=new Employee(1,"Achal",1200.0);
+		
+
+	}
+
+}

@@ -1,0 +1,13 @@
+package pack2;
+
+@FunctionalInterface
+public interface Acceptor <T>{
+	static void m1() {
+		
+	}
+	default void m2() {
+		
+	}
+    void accept(T obj);
+    
+}

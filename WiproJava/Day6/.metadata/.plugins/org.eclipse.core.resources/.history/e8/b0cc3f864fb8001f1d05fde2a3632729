@@ -1,0 +1,62 @@
+package pack3;
+
+class TradingAccount implements Account{
+	private double share=500;
+	private String name;
+	
+
+	public TradingAccount(double balance) {
+		super();
+		this.share = balance;
+		this.name=name;
+	}
+	
+
+	public TradingAccount() {
+		super();
+	}
+	
+	
+
+
+	public String getName() {
+		return name;
+	}
+
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+
+	public double getBalance() {
+		return share;
+	}
+
+
+	public void setBalance(double balance) {
+		this.share = balance;
+	}
+
+
+	@Override
+	public void deposite(double amt) {
+		// TODO Auto-generated method stub
+		this.share=this.share+amt;
+		
+		System.out.println(this.share);
+		
+	}
+
+	@Override
+	public void withdraw(double amt) {
+		// TODO Auto-generated method stub
+		this.share=this.share-amt;
+		System.out.println(this.share);
+		
+	}
+	
+	
+	
+
+}

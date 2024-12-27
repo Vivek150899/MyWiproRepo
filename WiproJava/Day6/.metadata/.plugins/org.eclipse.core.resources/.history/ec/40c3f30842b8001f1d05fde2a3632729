@@ -1,0 +1,21 @@
+package pack1;
+
+public class Square {
+	private int size;
+
+	public Square(int size) {
+		super();
+		this.size = size;
+	}
+
+	public Square() {
+		super();
+	}
+	
+	public double calculateArea() {
+		return this.size*this.size;
+	}
+	
+	
+
+}

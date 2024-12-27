@@ -1,0 +1,5 @@
+package pack1;
+//class can enharits another class and multiple interfaces but interfaces can not inharit calss
+public class A extends Employee implements X,Y{
+
+}

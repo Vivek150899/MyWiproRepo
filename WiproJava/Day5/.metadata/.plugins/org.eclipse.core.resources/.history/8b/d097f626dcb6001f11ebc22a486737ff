@@ -1,0 +1,6 @@
+package pack1;
+ //  a class can enherits more than one interfaces
+public class Z implements X,Y{
+	
+
+}

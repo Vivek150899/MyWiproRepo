@@ -1,0 +1,18 @@
+package pack1;
+
+public class A {
+	int m1(double a) {
+		System.out.println(a);
+		return 0;
+	}
+
+}
+class B extends A{
+	//return type and parameter should not take in overriding
+	
+	@Override
+	public int m1(double a) {
+		System.out.println(a*a);
+		return 1;
+	}
+}

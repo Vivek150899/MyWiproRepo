@@ -1,0 +1,15 @@
+package pack1;
+
+public class IdGenerator {
+	int i;
+	
+	public int getNextId() {
+		return ++i;
+	}
+	
+	private IdGenerator() {
+		
+	}
+	IdGenerator instance=null;
+
+}

@@ -1,0 +1,48 @@
+package pack2;
+
+
+import pack1.Circle;
+import pack1.Employee;
+import pack3.CircleStackImplementation;
+import pack3.EmployeeStackImplementation;
+
+public class Main4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Employee e1=new Employee(1020,"Ram",5000.0);
+		Employee e2=new Employee(1020,"Ram",5000.0);
+		
+		
+		EmployeeStackImplementation stack;
+		stack=new EmployeeStackImplementation(4);
+	     
+		Employee c1=new Employee();
+		Employee c2=new Employee();
+		
+		stack.push(c1);
+		stack.push(c2);
+		
+		stack.push(new Employee());
+		stack.push(new Employee());
+		
+		System.out.println(stack);
+		
+		Employee poppedInteger=stack.pop();
+		System.out.println(poppedInteger);
+		
+		poppedInteger=stack.pop();
+		System.out.println(poppedInteger);
+		
+		poppedInteger=stack.pop();
+		System.out.println(poppedInteger);
+		
+		poppedInteger=stack.pop();
+		System.out.println(poppedInteger);
+		
+		System.out.println(stack);
+
+	}
+	}
+
+}

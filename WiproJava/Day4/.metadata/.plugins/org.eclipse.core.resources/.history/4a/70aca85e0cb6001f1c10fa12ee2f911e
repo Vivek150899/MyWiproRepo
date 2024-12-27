@@ -1,0 +1,11 @@
+package pack2;
+
+public class Main2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Employee employee= new Employee(101,"Ram",1000.00);
+
+	}
+
+}

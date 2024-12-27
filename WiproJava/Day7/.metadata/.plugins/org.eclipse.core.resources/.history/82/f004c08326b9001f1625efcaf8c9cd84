@@ -1,0 +1,56 @@
+package pack2;
+
+import pack1.Student;
+import pack3.EmployeeStackImplementation;
+
+public class Main5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Student e1=new Student(1020,"Ram",5000.0);
+		Student e2=new Student(1021,"Raman",6000.0);
+		
+		
+		EmployeeStackImplementation stack;
+		stack=new EmployeeStackImplementation(4);
+	     
+		
+		stack.push(e1);
+		stack.push(e2);
+		
+		stack.push(new Student(1022,"Arpit",4000.0));
+		stack.push(new Student( 1022,"Achal",3000.0));
+		
+		System.out.println(stack);
+		
+		Student poppedEmployee=stack.pop();
+		System.out.println(poppedEmployee.getId());
+		System.out.println(poppedEmployee.getName());
+		System.out.println(poppedEmployee.getBasic());
+		System.out.println(poppedEmployee.getNetSalary());
+		
+		
+		
+		poppedEmployee=stack.pop();
+		System.out.println(poppedEmployee.getId());
+		System.out.println(poppedEmployee.getName());
+		System.out.println(poppedEmployee.getBasic());
+		System.out.println(poppedEmployee.getNetSalary());
+		
+		poppedEmployee=stack.pop();
+		System.out.println(poppedEmployee.getId());
+		System.out.println(poppedEmployee.getName());
+		System.out.println(poppedEmployee.getBasic());
+		System.out.println(poppedEmployee.getNetSalary());
+		
+		poppedEmployee=stack.pop();
+		System.out.println(poppedEmployee.getId());
+		System.out.println(poppedEmployee.getName());
+		System.out.println(poppedEmployee.getBasic());
+		System.out.println(poppedEmployee.getNetSalary());
+		
+		System.out.println(stack);
+
+	}
+
+}

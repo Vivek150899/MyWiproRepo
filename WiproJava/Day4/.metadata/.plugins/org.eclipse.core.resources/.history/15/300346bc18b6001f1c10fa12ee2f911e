@@ -1,0 +1,11 @@
+package pack1;
+
+public class Square {
+	private int size;
+	//generate two constructors 
+	//generate setter and getters 
+	//implement computeArea
+	//implement toString (generate)
+	//implement hashCode and equals 
+
+}

@@ -1,0 +1,6 @@
+package pack2;
+
+public interface Y {
+	void m2();
+
+}

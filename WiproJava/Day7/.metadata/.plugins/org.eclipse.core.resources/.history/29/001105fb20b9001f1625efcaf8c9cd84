@@ -1,0 +1,17 @@
+package pack2;
+
+import pack3.IntegerStackImplementation;
+
+public class Main1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		IntegerStackImplementation stack=new IntegerStackImplementation(4);
+	     
+		Integer obj1=Integer.valueOf(30);
+		Integer obj2=Integer.valueOf(40);
+		
+
+	}
+
+}

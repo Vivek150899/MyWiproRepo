@@ -1,0 +1,24 @@
+package pack2;
+
+import java.util.HashSet;
+import java.util.Set;
+
+import pack1.Circle;
+
+public class Main2 {
+
+	public static void main(String[] args) {
+		
+		Set<Circle>circleSet=new HashSet<>();
+		circleSet.add(new Circle(75));
+		circleSet.add(new Circle(35));
+		circleSet.add(new Circle(15));
+		circleSet.add(new Circle(20));
+		circleSet.add(new Circle(40));
+		
+		
+		
+
+	}
+
+}

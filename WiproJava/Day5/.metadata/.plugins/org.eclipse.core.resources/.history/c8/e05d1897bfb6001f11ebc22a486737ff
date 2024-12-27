@@ -1,0 +1,11 @@
+package pack1;
+
+public class PersonalLoan extends Loan{
+	
+	@Override
+	public  double getInterestRate() {
+		return 0.15;
+	}
+	
+
+}

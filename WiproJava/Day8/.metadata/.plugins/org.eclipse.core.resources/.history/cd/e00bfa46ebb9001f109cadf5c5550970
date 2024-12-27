@@ -1,0 +1,13 @@
+package pack2;
+
+public class Main12 {
+
+	public static void main(String[] args) {
+		// create comparator
+		//treeset of students with comp objects
+		//add few5 student objects
+		//print the collection
+
+	}
+
+}

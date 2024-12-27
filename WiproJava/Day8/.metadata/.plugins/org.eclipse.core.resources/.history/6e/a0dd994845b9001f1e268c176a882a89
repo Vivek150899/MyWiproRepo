@@ -1,0 +1,51 @@
+package pack2;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
+public class Main2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		List<Double>priceList;
+		priceList=new LinkedList<>();
+		priceList.add("Delhi");
+		priceList.add("Mumbai");
+		priceList.add(1, "Haidrabad");
+		priceList.add("Kolkata");
+		priceList.add("Pune");
+		System.out.println(priceList);
+		System.out.println(priceList.size());
+		System.out.println(priceList.remove(2));
+		System.out.println(priceList);
+		System.out.println(priceList.contains("Pune"));
+		int position=priceList.indexOf("Pune");
+		System.out.println(position);
+		System.out.println(priceList.isEmpty());
+		System.out.println(priceList.get(priceList.size()-1));
+		priceList.set(0,"New Delhi");
+		System.out.println(priceList);
+		
+		for(int i=0;i<priceList.size();i++) {
+			System.out.println(priceList.get(i));
+		}
+		
+		for (String city:priceList) {
+			System.out.println(city);
+		}
+		
+		Iterator<String>it=priceList.iterator();
+		while(it.hasNext()) {
+			System.out.println(it.next().toLowerCase());
+		}
+		priceList.clear();
+		System.out.println(priceList);
+		System.out.println(priceList.size());
+		System.out.println(priceList.isEmpty());
+
+	}
+
+	}
+
+}

@@ -1,0 +1,25 @@
+package pack2;
+
+import java.io.DataOutputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+
+public class Main9 {
+
+	public static void main(String[] args) throws FileNotFoundException {
+		// TODO Auto-generated method stub
+		FileOutputStream os=new FileOutputStream("something.dat");
+        DataOutputStream dos=new DataOutputStream(os);
+        
+        byte v1=100;
+        short v2=1000;
+        int v3=10000;
+        long v4=100000;
+        char v5='A';
+        float v6=0.6f;
+        double v7=0.66;
+        boolean v8=true;
+        String  v9="Welcome";
+	}
+
+}

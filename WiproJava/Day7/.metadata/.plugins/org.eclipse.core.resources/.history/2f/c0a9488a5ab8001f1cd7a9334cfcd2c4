@@ -1,0 +1,21 @@
+package pack1;
+
+public class Main4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		byte b=120;
+		Byte obj1=Byte.valueOf(b);
+		byte c=80;
+		Byte obj2=Byte.valueOf(c);
+		
+		System.out.println(obj1.equals(obj2));
+		System.out.println(obj1.compareTo(obj2));
+		
+		byte d=125;
+		Byte obj3=Byte.valueOf(d);
+		
+
+	}
+
+}

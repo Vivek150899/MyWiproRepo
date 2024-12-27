@@ -1,0 +1,12 @@
+package pack2;
+
+import org.junit.platform.suite.api.Suite;
+
+import org.junit.runners.Suite.SuiteClasses;
+
+//@RunWith(Suite.class)
+@Suite
+@SuiteClasses({CalculatorTester.class, EvenNumberCheckerTester.class})
+public class AllTest {
+      
+}

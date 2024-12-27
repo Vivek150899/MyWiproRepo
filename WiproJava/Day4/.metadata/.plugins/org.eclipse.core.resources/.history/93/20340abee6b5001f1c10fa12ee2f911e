@@ -1,0 +1,19 @@
+
+ class A {
+	 void saySomething() {
+		 System.out.println("C++");
+	 }
+
+}
+ class B extends A{
+	 void saySomething() {
+		 System.out.println("Java");
+	 }
+ }
+ 
+ class Main{
+	 public static void main(String[] args) {
+		B obj=new B();
+		obj.saySomething();
+	}
+ }

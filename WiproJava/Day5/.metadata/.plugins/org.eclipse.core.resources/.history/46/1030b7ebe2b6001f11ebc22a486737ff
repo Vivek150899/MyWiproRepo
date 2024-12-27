@@ -1,0 +1,14 @@
+package pack2;
+
+import pack1.Square;
+
+public class Main2 {
+	Square s1=new Square(10);
+	Square s2=new Square(10);
+	
+	int a=s1.compareTo(s2);
+	System.out.println(a);
+	
+	
+
+}

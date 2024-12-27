@@ -1,0 +1,10 @@
+package pack1;
+
+public abstract class SalaryCalculation {
+	
+	public abstract double computeAllowance();
+	public abstract double computeDeduction();
+	public abstract double computeNetSalary();
+	
+
+}

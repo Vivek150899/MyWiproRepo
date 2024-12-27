@@ -1,0 +1,22 @@
+package pack1;
+
+public class A {
+	int m1(double a) {
+		System.out.println(a);
+		return 0;
+	}
+	private void m2(int x) {
+		System.out.println(x);
+	}
+
+}
+class B extends A{
+	//return type and parameter should not take in overriding
+	//we can increase into public not reduce to private
+	
+	@Override
+	public int m1(double a) {
+		System.out.println(a*a);
+		return 1;
+	}
+}

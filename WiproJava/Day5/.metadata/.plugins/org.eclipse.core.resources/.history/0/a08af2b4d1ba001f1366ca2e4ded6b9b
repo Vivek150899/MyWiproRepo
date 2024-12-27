@@ -1,0 +1,15 @@
+package pack1;
+
+public class E extends D{
+
+	@Override
+	public void m1(){
+		
+	}
+	
+	public void m2() {
+		System.out.println("M1 is e");
+	}
+	
+
+}

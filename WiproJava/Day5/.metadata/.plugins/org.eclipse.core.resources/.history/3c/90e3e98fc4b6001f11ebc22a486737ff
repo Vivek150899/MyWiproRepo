@@ -1,0 +1,38 @@
+package pack2;
+
+import pack1.Loan;
+import pack1.PersonalLoan;
+
+public class Main4 {
+	
+	static void printLoanDetails(Loan loan) {
+		if (loan instanceof PersonalLoan) {
+			PersonalLoan temp=(PersonalLoan) loan;
+			
+			
+			System.out.println("Personal Loan Amount : "+temp.getInterestAmount());
+			System.out.println("Personal Loan Tenure : "+temp.getTenure());
+			System.out.println("Personal Loan Interest Rate : "+temp.getInterestRate());
+			System.out.println("Personal Loan Repayable : "+temp.getRepayableAmount());
+			System.out.println("Personal Loan EMI : "+temp.getEMI());
+			System.out.println("Person Contact Number : "+temp.getPhoneNumber());
+			
+		}
+	}
+
+	public static void main(String[] args) {
+		
+		
+Loan loan;
+		
+		loan=new PersonalLoan(10000.0, 12,"9519382914");
+		
+		System.out.println("Personal Loan Amount : "+loan.getInterestAmount());
+		System.out.println("Personal Loan Tenure : "+loan.getTenure());
+		System.out.println("Personal Loan Interest Rate : "+loan.getInterestRate());
+		System.out.println("Personal Loan Repayable : "+loan.getRepayableAmount());
+		System.out.println("Personal Loan EMI : "+loan.getEMI());
+
+	}
+
+}

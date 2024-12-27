@@ -1,0 +1,22 @@
+package pack2;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Main1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		List<String>cityList;
+		cityList=new ArrayList<>();
+		cityList.add("Delhi");
+		cityList.add("Mumbai");
+		cityList.add("Kolkata");
+		cityList.add("Pune");
+		
+		System.out.println(cityList.size());
+		System.out.println(cityList.isEmpty());
+
+	}
+
+}

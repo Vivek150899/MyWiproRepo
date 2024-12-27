@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;BasicSalary&apos; in &apos;AgePrinter.main(...)&apos; to &apos;basicSalary&apos;&#x0D;&#x0A;- Original project: &apos;01-Project&apos;&#x0D;&#x0A;- Original element: &apos;AgePrinter.main(String[]).BasicSalary&apos;&#x0D;&#x0A;- Renamed element: &apos;BasicSalary&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;BasicSalary&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;{AgePrinter.java[AgePrinter~main~\[QString;@BasicSalary!122!148!129!139!D!0!false" name="basicSalary" references="true" stamp="1733397599551" version="1.0"/>
+</session>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;09-StringJoiner&apos; to &apos;09-StringBufferExplore&apos;&#x0D;&#x0A;- Original element: &apos;09-StringJoiner&apos;&#x0D;&#x0A;- Renamed element: &apos;09-StringJoiner&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;09-StringJoiner&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=09-StringJoiner" name="09-StringBufferExplore" references="true" stamp="1733804444627" version="1.0"/>
+</session>

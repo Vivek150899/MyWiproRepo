@@ -1,0 +1,11 @@
+package pack1;
+
+public class Manager extends Employee{
+	public int employeeCount;
+	
+	public double getNetSalary() {
+		return basicSalary+(basicSalary*0.10)+(employeeCount*100);
+	}
+	
+
+}

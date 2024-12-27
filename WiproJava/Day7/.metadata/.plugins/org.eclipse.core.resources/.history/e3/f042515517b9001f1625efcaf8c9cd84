@@ -1,0 +1,33 @@
+package pack2;
+
+import pack1.LongStack;
+
+public class Main3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+FloatStack floatStack=new FloatStack(4);
+		
+		floatStack.push(10L);
+		floatStack.push(20L);
+		floatStack.push(30L);
+		floatStack.push(40L);
+		
+		System.out.println((floatStack.toString()));
+		
+		long poppedValue=floatStack.pop();
+		System.out.println(poppedValue);
+		
+		poppedValue=floatStack.pop();
+		System.out.println(poppedValue);
+		
+		poppedValue=floatStack.pop();
+		System.out.println(poppedValue);
+		
+		poppedValue=floatStack.pop();
+		System.out.println(poppedValue);
+		
+		System.out.println((floatStack.toString()));
+	}
+
+}

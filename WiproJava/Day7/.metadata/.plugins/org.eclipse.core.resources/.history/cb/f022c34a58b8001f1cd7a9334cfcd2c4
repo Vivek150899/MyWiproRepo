@@ -1,0 +1,16 @@
+
+package pack1;
+
+public class Main3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Integer obj=Integer.valueOf(100);
+		Integer obj1=Integer.valueOf(120);
+		System.out.println(obj.equals(obj1));
+		int r=obj.compareTo(obj1);
+		System.out.println(r);
+
+	}
+
+}

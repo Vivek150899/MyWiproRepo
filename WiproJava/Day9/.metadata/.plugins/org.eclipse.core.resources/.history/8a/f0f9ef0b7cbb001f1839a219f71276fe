@@ -1,0 +1,15 @@
+package pack2;
+
+import java.util.HashSet;
+import pack1.Circle;
+
+public class Set {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Main2<Circle>circleSet=new HashSet<>();
+		
+
+	}
+
+}

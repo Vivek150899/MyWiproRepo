@@ -1,0 +1,46 @@
+package pack3;
+
+class TradingAccount implements Account{
+	private double balance=5000;
+	
+
+	public TradingAccount(double balance) {
+		super();
+		this.balance = balance;
+	}
+	
+
+	public TradingAccount() {
+		super();
+	}
+	
+
+
+	public double getBalance() {
+		return balance;
+	}
+
+
+	public void setBalance(double balance) {
+		this.balance = balance;
+	}
+
+
+	@Override
+	public void deposite(double amt) {
+		// TODO Auto-generated method stub
+		this.balance=this.balance+amt;
+		
+	}
+
+	@Override
+	public void withdraw(double amt) {
+		// TODO Auto-generated method stub
+		this.balance=this.balance-amt;
+		
+	}
+	public double computeTotal() {
+		return this.balance;
+	}
+
+}

@@ -1,0 +1,19 @@
+package pack2;
+import pack1.Loan;
+
+public class Main9 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Loan l1=new Loan(12,2000);
+		Loan l2=new Loan(24,3000);
+		Loan l3=new Loan(28,3000);
+		
+		
+		System.out.println(l1.equals(l2));
+		System.out.println(l1.equals(l3));
+		
+
+	}
+
+}

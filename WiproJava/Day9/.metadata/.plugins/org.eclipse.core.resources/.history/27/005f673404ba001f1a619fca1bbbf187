@@ -1,0 +1,21 @@
+package pack3;
+
+import pack2.Decider;
+
+public class Main9 {
+
+	public static void main(String[] args) {
+		
+		String str="Welcome";
+		
+		Decider<String>decider1;
+		decider1=(s)->{return s.length()>10;};
+		System.out.println(decider1.decide(str));
+		
+		Decider<String>decider2;
+		decider2=(s)->{return s.length()>5;};
+		System.out.println(decider2.decide(str));
+
+	}
+
+}

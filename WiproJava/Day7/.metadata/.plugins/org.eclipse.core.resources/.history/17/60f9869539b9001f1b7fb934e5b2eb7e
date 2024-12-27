@@ -1,0 +1,19 @@
+package pack2;
+import pack1.Circle;
+import pack1.Employee;
+import pack1.Circle;
+import pack3.Stack;
+import pack3.StackImplementation1;
+
+public class Main8 {
+
+	public static void main(String[] args) {
+		Stack<Circle> stack1=new StackImplementation1<>(5);
+		Stack<Employee> stack2=new StackImplementation1<>(5);
+		Stack<String> stack3=new StackImplementation1<>(5);
+		
+		
+
+	}
+
+}

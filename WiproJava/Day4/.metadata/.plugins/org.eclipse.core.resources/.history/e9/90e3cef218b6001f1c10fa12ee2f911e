@@ -1,0 +1,13 @@
+package pack2;
+
+public class Main8 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//Create 3 Square objects with size 3,3,5
+		//test if s1.equals(s2)
+		//test if s1.equals(s3)
+
+	}
+
+}

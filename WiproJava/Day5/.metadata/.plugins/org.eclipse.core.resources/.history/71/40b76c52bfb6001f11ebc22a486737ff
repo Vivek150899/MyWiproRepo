@@ -1,0 +1,11 @@
+package pack1;
+
+public abstract class Loan {
+	private double loanAmount;
+	private int tenure;
+	
+	public abstract double getInterestRate();
+	
+	
+
+}

@@ -1,0 +1,15 @@
+package pack1;
+
+public class Main10 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		boolean v1=true;
+		Boolean obj1=Boolean.valueOf(v1);
+		
+		boolean v2=true;
+		Boolean obj2=Boolean.valueOf(v2);
+
+	}
+
+}

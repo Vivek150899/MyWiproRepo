@@ -1,0 +1,23 @@
+package pack4;
+
+import java.util.LinkedList;
+import java.util.List;
+import java.util.function.Function;
+
+public class Main3 {
+
+	public static void main(String[] args) {
+		List<String> names=new LinkedList<>();
+		names.add("Prabhu");
+		names.add("Shruthi");
+		names.add("Karthik");
+		Function <String,Integer>function;
+		function=String::length;
+		names
+		.stream()
+		.map(function).
+		forEach((n)->System.out.println(n));
+		
+		
+	}
+}

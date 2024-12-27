@@ -1,0 +1,19 @@
+package pack2;
+
+import pack1.ShapeFactory;
+import pack3.Account;
+
+public class Main2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Account A;
+		
+		A=ShapeFactory.createAccount('C');
+		//s=new Circle();
+		A.setSize(20);
+		System.out.println(A.);
+
+	}
+
+}

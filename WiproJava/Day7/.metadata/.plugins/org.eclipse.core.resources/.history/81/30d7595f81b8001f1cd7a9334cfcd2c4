@@ -1,0 +1,12 @@
+package pack1;
+
+public class Circle {
+	int radius;
+	
+	for (Circle c:allCircles) {
+		System.out.println(c.getRadius()+" , "+c.getArea());
+		System.out.println(c);
+	}
+	
+
+}

@@ -1,0 +1,20 @@
+package pack2;
+import pack1.B;
+import pack1.A;
+
+public class Main1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		A obj=new B();       //
+		obj.greet();
+		obj.hello();
+		//obj.sayWelcome();
+
+	}
+	    B obj1=(B)obj;
+
+}
+
+//up casting implicit by a type reference to b class
+//down casting  storing superclass variable to a subclass 

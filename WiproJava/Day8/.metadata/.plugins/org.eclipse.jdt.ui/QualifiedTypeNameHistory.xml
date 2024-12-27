@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="java.lang.Comparable"/>
+    <fullyQualifiedTypeName name="java.util.Collection"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="pack1.NameAscendingComparator"/>
+    <fullyQualifiedTypeName name="java.util.TreeSet"/>
+    <fullyQualifiedTypeName name="pack1.Employee"/>
+    <fullyQualifiedTypeName name="pack1.EmployeeIdAscendingComperator"/>
+    <fullyQualifiedTypeName name="pack1.StudentNameAscendingComprator"/>
+    <fullyQualifiedTypeName name="pack1.Student"/>
+    <fullyQualifiedTypeName name="pack1.StudentRollNumberAscendingComparator"/>
+    <fullyQualifiedTypeName name="java.util.Comparator"/>
+    <fullyQualifiedTypeName name="pack1.StudentNameDescendingComperator"/>
+    <fullyQualifiedTypeName name="pack1.StudentRollNumberDescendingComperator"/>
+</qualifiedTypeNameHistroy>
